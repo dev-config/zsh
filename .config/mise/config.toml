@@ -1,0 +1,13 @@
+[tools]
+bun = "latest"
+go = "latest"
+node = "lts"
+"npm:npm-check-updates" = "latest"
+"npm:serve" = "latest"
+pnpm = "latest"
+python = "latest"
+rust = "latest"
+uv = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["node"]
