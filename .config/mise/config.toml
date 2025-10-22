@@ -2,6 +2,8 @@
 bun = "latest"
 go = "latest"
 node = "lts"
+"npm:@anthropic-ai/claude-code" = "latest"
+"npm:@openai/codex" = "latest"
 "npm:npm-check-updates" = "latest"
 "npm:serve" = "latest"
 pnpm = "latest"
