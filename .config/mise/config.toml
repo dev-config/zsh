@@ -2,14 +2,23 @@
 bun = "latest"
 go = "latest"
 node = "lts"
-"npm:@anthropic-ai/claude-code" = "latest"
-"npm:@openai/codex" = "latest"
-"npm:npm-check-updates" = "latest"
-"npm:serve" = "latest"
 pnpm = "latest"
 python = "latest"
 rust = "latest"
 uv = "latest"
+
+"npm:serve" = "latest"
+"npm:@openai/codex" = "latest"
+"npm:npm-check-updates" = "latest"
+"npm:@google/gemini-cli" = "latest"
+"npm:@qwen-code/qwen-code" = "latest"
+"npm:claude-code-workflow" = "latest"
+
+"github:air-verse/air" = "latest"
+"github:anomalyco/opencode" = "latest"
+
+[tasks.claude]
+run = "mise exec node@lts -- claude"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node"]

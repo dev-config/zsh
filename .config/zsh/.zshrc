@@ -25,12 +25,13 @@ typeset -U path PATH fpath FPATH
 
 # 功能：定义命令的搜索路径 (PATH) 及其优先级 (从左到右依次降低)。
 path=(
-  $HOME/.local/bin   # 用户通过 pip 等工具本地安装的二进制文件
-  $HOME/bin          # 用户存放个人脚本的目录
-  /opt/homebrew/bin  # Homebrew 包管理器路径 (适用于 macOS)
-  /usr/local/bin     # 系统级的本地二进制文件
-  $ZPFX/bin          # Zinit 自身的二进制文件目录
-  $path              # 保留并追加系统原始的 PATH
+  $HOME/.local/bin             # 用户通过 pip 等工具本地安装的二进制文件
+  $HOME/bin                    # 用户存放个人脚本的目录
+  $HOME/.opencode/bin          # opencode
+  /opt/homebrew/bin            # Homebrew 包管理器路径 (适用于 macOS)
+  /usr/local/bin               # 系统级的本地二进制文件
+  $ZPFX/bin                    # Zinit 自身的二进制文件目录
+  $path                        # 保留并追加系统原始的 PATH
 )
 
 
