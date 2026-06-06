@@ -10,7 +10,7 @@ claude = "latest"
 yarn = ['1','latest']
 codex = "latest"
 gemini-cli = "latest"
-jq = "latest"
+php = "latest"
 
 
 "npm:serve" = "latest"
