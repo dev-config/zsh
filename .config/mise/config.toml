@@ -7,14 +7,18 @@ python = "3.13"
 rust = "latest"
 uv = "latest"
 claude = "latest"
+yarn = ['1','latest']
+codex = "latest"
+gemini-cli = "latest"
+jq = "latest"
+
 
 "npm:serve" = "latest"
-"npm:@openai/codex" = "latest"
 "npm:npm-check-updates" = "latest"
-"npm:@google/gemini-cli" = "latest"
-"npm:@qwen-code/qwen-code" = "latest"
+# "npm:@google/gemini-cli" = "latest"
+# "npm:@qwen-code/qwen-code" = "latest"
 "npm:claude-code-workflow" = "latest"
-"npm:@augmentcode/auggie" = "prerelease"
+# "npm:@augmentcode/auggie" = "prerelease"
 "npm:maestro-flow" = "latest"
 "npm:typescript" = "latest"
 
@@ -33,9 +37,6 @@ run = "uv tool install --python 3.13 kimi-cli"
 
 [tasks.upgrade-kimi]
 run = "uv tool upgrade kimi-cli --no-cache"
-
-[tasks.claude]
-run = "mise exec node@lts -- claude"
 
 [settings]
 idiomatic_version_file_enable_tools = []
