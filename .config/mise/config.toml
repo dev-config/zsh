@@ -1,8 +1,8 @@
 [tools]
 bun = "latest"
 go = "latest"
-node = ['22','24','25','lts']
-"npm:pnpm" = ['11','10']
+node = ['22', '24', 'lts']
+"npm:pnpm" = ['10', 'latest']
 python = "3.13"
 rust = "latest"
 uv = "latest"
@@ -10,7 +10,9 @@ claude = "latest"
 yarn = ['1','latest']
 codex = "latest"
 gemini-cli = "latest"
-php = "latest"
+opencode = "latest"
+act = "latest"
+gomigrate = "latest"
 
 
 "npm:serve" = "latest"
@@ -21,22 +23,18 @@ php = "latest"
 # "npm:@augmentcode/auggie" = "prerelease"
 "npm:maestro-flow" = "latest"
 "npm:typescript" = "latest"
+"npm:@qoder-ai/qodercli" = "latest"
+"npm:@qodercn-ai/qoderclicn" = "latest"
+"npm:@moonshot-ai/kimi-code" = "latest"
+
 
 "pipx:cccc-pair" = "latest"
-# "pipx:kimi-cli" = "latest"
-# "pipx:kimi-cli" = { version = "latest", python = "3.13" }
 
 "aqua:rhysd/actionlint" = "latest"
 "aqua:air-verse/air" = "latest"
 
 [tasks.claude]
 run = "mise exec node@lts -- claude"
-
-[tasks.install-kimi]
-run = "uv tool install --python 3.13 kimi-cli"
-
-[tasks.upgrade-kimi]
-run = "uv tool upgrade kimi-cli --no-cache"
 
 [settings]
 idiomatic_version_file_enable_tools = []
