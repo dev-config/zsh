@@ -1,0 +1,214 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.11.2",
+  "schemes" : [
+    {
+      "buttons" : {
+        "clickDebouncing" : {
+          "timeout" : 0
+        },
+        "mappings" : [
+          {
+            "action" : "missionControl.spaceRight",
+            "button" : 3,
+            "command" : false,
+            "control" : false,
+            "option" : false,
+            "repeat" : false,
+            "shift" : false
+          },
+          {
+            "action" : "missionControl.spaceLeft",
+            "button" : 4,
+            "command" : false,
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ],
+        "universalBackForward" : false
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xb01b",
+          "productName" : "M585\/M590",
+          "serialNumber" : "F53F48E814741A42",
+          "vendorID" : "0x46d"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "disableAcceleration" : false,
+        "speed" : 0.5
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 2
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "preventDefault"
+            },
+            "control" : {
+              "type" : "pinchZoom"
+            },
+            "option" : {
+              "type" : "alterOrientation"
+            },
+            "shift" : {
+              "scale" : 2,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 10
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+
+        ]
+      },
+      "if" : {
+        "app" : "com.tencent.xinWeChat",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xb01b",
+          "productName" : "M585\/M590",
+          "serialNumber" : "F53F48E814741A42",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "pinchZoom"
+            },
+            "control" : {
+              "type" : "pinchZoom"
+            },
+            "option" : {
+              "type" : "alterOrientation"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xf60a",
+          "productName" : "Baseus F02 Mouse ",
+          "vendorID" : "0x3554"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.38
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 8
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xb02a",
+          "productName" : "Logi M650",
+          "serialNumber" : "1DA7C2A8",
+          "vendorID" : "0x46d"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.38
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 2
+        },
+        "modifiers" : {
+          "vertical" : {
+            "control" : {
+              "type" : "pinchZoom"
+            },
+            "option" : {
+              "type" : "alterOrientation"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 12
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc542",
+          "productName" : "Wireless Receiver",
+          "vendorID" : "0x46d"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 2,
+        "speed" : 0.07
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 2.77
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "clickDebouncing" : {
+          "timeout" : 0
+        },
+        "universalBackForward" : false
+      },
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+          "productID" : "0x342",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "serialNumber" : "FM7228405N9PDY8AR+RMT",
+          "vendorID" : "0x5ac"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : false
+        }
+      }
+    }
+  ]
+}
