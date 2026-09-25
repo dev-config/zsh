@@ -28,6 +28,7 @@ antigravity-cli = ['latest']
 "npm:@earendil-works/pi-coding-agent" = { version = "latest", trust_policy_excludes = ["@smithy/core@3.33.0", "@smithy/node-http-handler@4.11.0", "@smithy/*"] }
 "npm:@konbakuyomu/smart-search" = "latest"
 "npm:@larksuite/cli" = "latest"
+"npm:@playwright/cli" = "latest"
 
 # "pipx:cccc-pair" = "latest"
 
