@@ -2,33 +2,34 @@
 bun = "latest"
 go = "latest"
 node = ['22', '24', 'lts']
-"npm:pnpm" = ['10', 'latest']
-python = "3.13"
+python = "latest"
 rust = "latest"
 uv = "latest"
 claude = "latest"
 yarn = ['1','latest']
-codex = "latest"
-gemini-cli = "latest"
-opencode = "latest"
 act = "latest"
 gomigrate = "latest"
+java = ['temurin-17','temurin-21']
+maven = ['latest','3.8']
+antigravity-cli = ['latest']
 
-
+"npm:pnpm" = ['10', 'latest']
 "npm:serve" = "latest"
 "npm:npm-check-updates" = "latest"
+"npm:@openai/codex" = "latest"
 # "npm:@google/gemini-cli" = "latest"
 # "npm:@qwen-code/qwen-code" = "latest"
-"npm:claude-code-workflow" = "latest"
-# "npm:@augmentcode/auggie" = "prerelease"
+"npm:opencode-ai" = "latest"
 "npm:maestro-flow" = "latest"
 "npm:typescript" = "latest"
 "npm:@qoder-ai/qodercli" = "latest"
 "npm:@qodercn-ai/qoderclicn" = "latest"
 "npm:@moonshot-ai/kimi-code" = "latest"
+"npm:@earendil-works/pi-coding-agent" = { version = "latest", trust_policy_excludes = ["@smithy/core@3.33.0", "@smithy/node-http-handler@4.11.0", "@smithy/*"] }
+"npm:@konbakuyomu/smart-search" = "latest"
+"npm:@larksuite/cli" = "latest"
 
-
-"pipx:cccc-pair" = "latest"
+# "pipx:cccc-pair" = "latest"
 
 "aqua:rhysd/actionlint" = "latest"
 "aqua:air-verse/air" = "latest"
@@ -38,3 +39,8 @@ run = "mise exec node@lts -- claude"
 
 [settings]
 idiomatic_version_file_enable_tools = []
+minimum_release_age = "0s"
+# minimum_release_age_excludes = ["npm:*"]
+fetch_remote_versions_cache = "1h"
+use_versions_host = false
+github.credential_command = "gh auth token"
